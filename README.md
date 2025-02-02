@@ -10,7 +10,6 @@ https://youtu.be/PkkkFOlyVUo
 
 - **Real-time Chat with Emotion Analysis**: Engage in real-time conversations with emotion analysis to better understand the emotional tone of the conversation.
 - **Calendar Integration**: Schedule events directly from the chat interface when negative emotions are detected.
-- **Video Calling**: Seamlessly transition from chat to video calls (currently under development).
 - **Contact Management**: Easily add and manage contacts within the app.
 - **Emotion-Based Scheduling**: Automatically suggest scheduling events when negative emotions are detected in conversations.
 
