@@ -2,6 +2,10 @@
 
 SyncZone, aims to meet the needs of users who struggle to stay connected with loved ones living far away. The main focus of our project is to bridge the communication gap by offering features that help users connect emotionally and practically. Whether through sending positive messages, scheduling events, or making video calls, SyncZone is designed to keep you connected.
 
+## Demo
+
+https://youtu.be/PkkkFOlyVUo
+
 ## Features
 
 - **Real-time Chat with Emotion Analysis**: Engage in real-time conversations with emotion analysis to better understand the emotional tone of the conversation.
@@ -97,7 +101,3 @@ SyncZone, aims to meet the needs of users who struggle to stay connected with lo
 3. Commit your changes with clear and descriptive messages.
 4. Push your changes to your fork.
 5. Submit a pull request with a detailed description of your changes.
-
-## Contact
-
-For any inquiries or feedback, please contact [your email].
