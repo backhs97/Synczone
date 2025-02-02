@@ -9,8 +9,9 @@ https://youtu.be/PkkkFOlyVUo
 ## Features
 
 - **Real-time Chat with Emotion Analysis**: Engage in real-time conversations with emotion analysis to better understand the emotional tone of the conversation.
-- **Calendar Integration**: Schedule events directly from the chat interface when negative emotions are detected.
-- **Contact Management**: Easily add and manage contacts within the app.
+- **Calendar Integration**: Schedule events directly or/and from the chat interface when negative emotions are detected.
+- **Contact**: Easily add and manage contacts within the app.
+- **Shop**: Own banners and stickers within the app, which users can use to decorate their profile or use when chatting with other users.
 - **Emotion-Based Scheduling**: Automatically suggest scheduling events when negative emotions are detected in conversations.
 
 ## Installation
@@ -27,7 +28,7 @@ https://youtu.be/PkkkFOlyVUo
    ```bash
    npm install
    ```
-4. Set up environment variables by creating a `.env` file in the root directory and adding your API keys and other sensitive information.
+4. Set up environment variables by creating a `.env` file in the root directory and adding your API keys.
 
 ## Usage
 
@@ -43,7 +44,7 @@ https://youtu.be/PkkkFOlyVUo
 
 **Challenge**: Integrating emotion analysis into the chat feature was complex due to the need for real-time processing and accurate emotion detection. The challenge was compounded by the need to seamlessly integrate this feature into an existing chat interface built with React Native.
 
-**Solution**: We utilized a model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to accurately detect and display the predominant emotion in each message. The integration required careful handling of asynchronous data flows and ensuring that the emotion analysis did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
+**Solution**: We utilized a chat-based model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to accurately detect and display the predominant emotion in each message. The integration required careful handling of the emotion analysis and did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
 
 ### UI/UX Improvements
 
