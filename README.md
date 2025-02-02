@@ -44,7 +44,7 @@ https://youtu.be/PkkkFOlyVUo
 
 **Challenge**: Integrating emotion analysis into the chat feature was complex due to the need for real-time processing and accurate emotion detection. The challenge was compounded by the need to seamlessly integrate this feature into an existing chat interface built with React Native.
 
-**Solution**: We utilized a chat-based model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to accurately detect and display the predominant emotion in each message. The integration required careful handling of the emotion analysis and did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
+**Solution**: We utilized a model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to accurately detect and display the predominant emotion in each message. The integration required careful handling of the emotion analysis and did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
 
 ### UI/UX Improvements
 
