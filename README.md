@@ -44,11 +44,11 @@ https://youtu.be/PkkkFOlyVUo
 
 **Challenge**: Integrating emotion analysis into the chat feature was complex due to the need for real-time processing and accurate emotion detection. The challenge was compounded by the need to seamlessly integrate this feature into an existing chat interface built with React Native.
 
-**Solution**: We utilized a model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to accurately detect and display the predominant emotion in each message. The integration required careful handling of the emotion analysis and did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
+**Solution**: We utilized a model trained on 53 emotions and implemented a WebSocket connection for real-time data processing. This allowed us to detect and display the predominant emotion in each message accurately. The integration required careful handling of the emotion analysis and did not introduce latency into the chat experience. We also had to ensure that the emotion data was stored efficiently in Supabase, allowing for quick retrieval and display.
 
 ### UI/UX Improvements
 
-**Challenge**: Enhancing the user interface for better user experience, especially in displaying emotion analysis results. The existing UI needed to be intuitive and visually appealing, while also providing clear feedback on the emotional tone of conversations.
+**Challenge**: Enhance the user interface for a better user experience, especially when displaying emotion analysis results. The existing UI needed to be intuitive and visually appealing, while also providing clear feedback on the emotional tone of conversations.
 
 **Solution**: We improved the UI by mapping emotion words and colors to each chat message, making it more intuitive for users. Additionally, animations and button enhancements were added to the `ChatDetailScreen.jsx` for a more engaging experience. This involved using React Native's animation libraries to create smooth transitions and interactive elements that respond to user actions.
 
