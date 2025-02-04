@@ -55,7 +55,7 @@ https://youtu.be/PkkkFOlyVUo
 
 **Solution**: Improved the UI by mapping emotion colors to each chat message, making it more intuitive for users. Additionally, animations and button enhancements were added to the `ChatDetailScreen.jsx` for a more engaging experience. This involved using React Native's animation libraries to create smooth transitions and interactive elements that respond to user actions.
 
-<img src="https://github.com/user-attachments/assets/6efa175f-2473-4459-b395-3ee646776822" width="400" height="700"/>
+<img src="https://github.com/user-attachments/assets/6efa175f-2473-4459-b395-3ee646776822" width="400" height="750"/>
 
 ### Video Call Integration
 
