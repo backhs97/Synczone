@@ -50,7 +50,14 @@ https://youtu.be/PkkkFOlyVUo
 
 **Challenge**: Enhance the user interface for a better user experience, especially when displaying emotion analysis results. The existing UI needed to be intuitive and visually appealing, while also providing clear feedback on the emotional tone of conversations.
 
-**Solution**: We improved the UI by mapping emotion words and colors to each chat message, making it more intuitive for users. Additionally, animations and button enhancements were added to the `ChatDetailScreen.jsx` for a more engaging experience. This involved using React Native's animation libraries to create smooth transitions and interactive elements that respond to user actions.
+![firstchat](https://github.com/user-attachments/assets/3ac87757-9d07-4bb4-8461-17efcaa84959)
+
+![secondchat](https://github.com/user-attachments/assets/bd987770-6be4-40a4-b718-abbcefe09443)
+
+**Solution**: Improved the UI by mapping emotion colors to each chat message, making it more intuitive for users. Additionally, animations and button enhancements were added to the `ChatDetailScreen.jsx` for a more engaging experience. This involved using React Native's animation libraries to create smooth transitions and interactive elements that respond to user actions.
+
+![finalchat](https://github.com/user-attachments/assets/dc988895-7d50-4c00-a15b-74aea2c1cacf)
+
 
 ### Video Call Integration
 
