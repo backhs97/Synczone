@@ -67,14 +67,14 @@ https://youtu.be/PkkkFOlyVUo
 
 **Challenge**: Building and deploying the app to Google Play was hindered by module conflicts and version control issues. The deployment process also required compliance with Google's policies and guidelines, which added an additional layer of complexity.
 
-**Solution**: We resolved these issues by removing incompatible Expo modules, managing version control meticulously, and using `expo eas build` for successful APK/AAB builds. We also set up a Google Play Developer account to manage the deployment process. This involved creating detailed app descriptions, setting up appropriate permissions, and ensuring that the app met all necessary security and performance standards.
+**Solution**: We resolved these issues by removing incompatible Expo modules, managing version control meticulously, and using `expo eas build` for successful APK/AAB builds. We also set up a Google Play Developer account to manage the deployment process. This involved creating detailed app descriptions, setting up appropriate permissions, and ensuring the app met all necessary security and performance standards.
 
 ### Permissions Management
 
 **Challenge**: As the app transitioned to Android, managing permissions for camera, microphone, and location access became crucial. Ensuring that users were prompted for the correct permissions at the right time was essential for maintaining app functionality and user trust.
 
 **Solution**: Implemented permission requests using `react-native-permissions` to ensure users are prompted for necessary permissions, enhancing security and functionality. This involved configuring the AndroidManifest.xml file to declare required permissions and implementing logic to handle user responses to permission requests.
-
+z   
 ### Security Enhancements
 
 **Challenge**: Ensuring sensitive information such as API keys are not exposed in the codebase. This was critical for protecting user data and maintaining the integrity of the app's backend services.
